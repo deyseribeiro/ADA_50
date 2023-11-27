@@ -1,6 +1,8 @@
 //Criado por Deyse Ribeiro
-
+//Modificando cabeçalho de exibição do programa
 //Instanciando bibliotecas
+import jdk.internal.org.jline.terminal.TerminalBuilder;
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Random;
@@ -252,6 +254,12 @@ public class BINGO
         System.out.println("**********************************");
         System.out.println("**********************************");
         System.out.println("********Por: Deyse Ribeiro********");
+        System.out.print("Esse programa é um jogo de bingo, que pode ser executado\n" +
+                "de forma automática ou manual. Primeiramente deve-se escolher a quantidade\n" +
+                "de jogadores participantes, digitar os nicknamos, preencher os números das\n" +
+                "cartelas e posteriormente realizar o sorteios daos números em cada rodada\n" +
+                "O objetivo é acertar primeiro os 5 números. Ganha quem acerta os 5 números\n" +
+                "primeiro");
 
         //Chamada de referência das funções do jogo
         conferencia(cartelas(jogadores()));
